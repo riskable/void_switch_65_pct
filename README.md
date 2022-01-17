@@ -2,6 +2,8 @@
 
 A reference implementation of an analog hall effect keyboard (65%) that uses 3D printed Void Switches and a Black Pill (STM32F4x1CEU6) microcontroller board.
 
+__WARNING:__ I haven't had a chance to order and test this yet!  Use at your own risk!  YOU HAVE BEEN WARNED!
+
 ![OpenSCAD Customizer](/assets/images/void_switch_65_pct_front.png)
 
 Inside this repository is a Kicad 6 project that has everything you need to get started making an analog keyboard PCB that uses 3D printed [Void Switches](https://github.com/riskable/void_switch).  It was made as part of a tutorial that is currently being worked on.  In the mean time--if you know what you're doing--feel to use it as a reference for creating your own analog keyboard PCBs.
