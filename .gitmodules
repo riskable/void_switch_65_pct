@@ -1,0 +1,3 @@
+[submodule "void_switch_kicad"]
+	path = void_switch_kicad
+	url = https://github.com/riskable/void_switch_kicad.git
