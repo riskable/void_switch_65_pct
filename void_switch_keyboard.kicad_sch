@@ -5519,7 +5519,7 @@
   (symbol (lib_id "74xx:CD74HC4067SM") (at 229.235 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c474c49-8034-4016-ae16-323a11cc68b9)
-    (property "Reference" "U2" (id 0) (at 231.2544 38.5785 0)
+    (property "Reference" "AM1" (id 0) (at 231.2544 38.5785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CD74HC4067SM" (id 1) (at 231.2544 41.3536 0)
@@ -6601,7 +6601,7 @@
   (symbol (lib_id "74xx:CD74HC4067SM") (at 385.445 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8bc8bcc6-31ff-473a-8894-15a45eba39ad)
-    (property "Reference" "U5" (id 0) (at 387.4644 38.5785 0)
+    (property "Reference" "AM4" (id 0) (at 387.4644 38.5785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CD74HC4067SM" (id 1) (at 387.4644 41.3536 0)
@@ -6786,7 +6786,7 @@
   (symbol (lib_id "74xx:CD74HC4067SM") (at 280.035 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 90cf972e-cbcc-40c8-b79e-37debddbfe69)
-    (property "Reference" "U3" (id 0) (at 282.0544 38.5785 0)
+    (property "Reference" "AM2" (id 0) (at 282.0544 38.5785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CD74HC4067SM" (id 1) (at 282.0544 41.3536 0)
@@ -7111,7 +7111,7 @@
   (symbol (lib_id "74xx:CD74HC4067SM") (at 177.165 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9c8d9ee2-2b97-4096-9f63-e88b1d368336)
-    (property "Reference" "U1" (id 0) (at 179.1844 38.5785 0)
+    (property "Reference" "AM0" (id 0) (at 179.1844 38.5785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CD74HC4067SM" (id 1) (at 179.1844 41.3536 0)
@@ -8651,7 +8651,7 @@
   (symbol (lib_id "74xx:CD74HC4067SM") (at 333.375 64.135 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid db45c3c3-1250-48bc-a6ed-d093379eb4fb)
-    (property "Reference" "U4" (id 0) (at 335.3944 38.5785 0)
+    (property "Reference" "AM3" (id 0) (at 335.3944 38.5785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CD74HC4067SM" (id 1) (at 335.3944 41.3536 0)
@@ -10131,6 +10131,9 @@
     (path "/04f369ae-d583-4bdd-9ee1-2a9b2d8c160b"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
     )
+    (path "/9c8d9ee2-2b97-4096-9f63-e88b1d368336"
+      (reference "AM0") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
+    )
     (path "/0ec16a1d-0028-4415-9ec9-609629941555"
       (reference "AM0:0") (unit 1) (value "Super") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
@@ -10178,6 +10181,9 @@
     )
     (path "/f7f4f904-fc49-41cd-ba42-70ee72eafb7c"
       (reference "AM0:15") (unit 1) (value "LAlt") (footprint "void_switch:VoidSwitch_1u_SMD")
+    )
+    (path "/5c474c49-8034-4016-ae16-323a11cc68b9"
+      (reference "AM1") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
     )
     (path "/b14843e9-f206-4e81-8ccc-e9e6032caacb"
       (reference "AM1:0") (unit 1) (value "F") (footprint "void_switch:VoidSwitch_1u_SMD")
@@ -10227,6 +10233,9 @@
     (path "/a194e913-fd06-41bc-ac4b-2642e199eb61"
       (reference "AM1:15") (unit 1) (value "V") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
+    (path "/90cf972e-cbcc-40c8-b79e-37debddbfe69"
+      (reference "AM2") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
+    )
     (path "/99be7986-f41e-4c29-8fdf-ab70a7107aba"
       (reference "AM2:2") (unit 1) (value "M") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
@@ -10265,6 +10274,9 @@
     )
     (path "/b8d59f57-308a-4af8-a597-03a5aadeb752"
       (reference "AM2:14") (unit 1) (value "More Fun") (footprint "void_switch:VoidSwitch_1u_SMD")
+    )
+    (path "/db45c3c3-1250-48bc-a6ed-d093379eb4fb"
+      (reference "AM3") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
     )
     (path "/6b7bcce7-18cb-4aac-bf1b-037ea11d3c47"
       (reference "AM3:1") (unit 1) (value "Slash") (footprint "void_switch:VoidSwitch_1u_SMD")
@@ -10307,6 +10319,9 @@
     )
     (path "/3ff8b781-aad3-45e2-aafb-ae5de9657e8b"
       (reference "AM3:14") (unit 1) (value "Menu") (footprint "void_switch:VoidSwitch_1u_SMD")
+    )
+    (path "/8bc8bcc6-31ff-473a-8894-15a45eba39ad"
+      (reference "AM4") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
     )
     (path "/908d4b2c-9f05-4735-a5b7-7a3be944de69"
       (reference "AM4:0") (unit 1) (value "DOWN") (footprint "void_switch:VoidSwitch_1u_SMD")
@@ -10400,21 +10415,6 @@
     )
     (path "/07bb7777-b306-4f9d-b172-fcdbb94739f1"
       (reference "R2") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/9c8d9ee2-2b97-4096-9f63-e88b1d368336"
-      (reference "U1") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
-    )
-    (path "/5c474c49-8034-4016-ae16-323a11cc68b9"
-      (reference "U2") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
-    )
-    (path "/90cf972e-cbcc-40c8-b79e-37debddbfe69"
-      (reference "U3") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
-    )
-    (path "/db45c3c3-1250-48bc-a6ed-d093379eb4fb"
-      (reference "U4") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
-    )
-    (path "/8bc8bcc6-31ff-473a-8894-15a45eba39ad"
-      (reference "U5") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
     )
     (path "/a22b0997-f941-4376-bbcf-55e3c72f43e0"
       (reference "U6") (unit 1) (value "BlackPill_STLINK") (footprint "blackpill:BlackPill_STLINK")
