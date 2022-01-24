@@ -3334,7 +3334,7 @@
     (property "Value" "Super" (id 1) (at 133.985 215.265 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "void_switch:VoidSwitch_1u_SMD" (id 2) (at 133.985 217.805 0)
+    (property "Footprint" "void_switch:VoidSwitch_1.25u_SMD" (id 2) (at 133.985 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 133.985 217.805 0)
@@ -6446,7 +6446,7 @@
     (property "Value" "LCtrl" (id 1) (at 103.505 215.265 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "void_switch:VoidSwitch_1u_SMD" (id 2) (at 103.505 217.805 0)
+    (property "Footprint" "void_switch:VoidSwitch_1.25u_SMD" (id 2) (at 103.505 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 103.505 217.805 0)
@@ -7880,7 +7880,7 @@
     (property "Value" "More Fun" (id 1) (at 309.88 215.265 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "void_switch:VoidSwitch_1u_SMD" (id 2) (at 309.88 217.805 0)
+    (property "Footprint" "void_switch:VoidSwitch_1.25u_SMD" (id 2) (at 309.88 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 309.88 217.805 0)
@@ -7927,7 +7927,7 @@
     (property "Value" "Fun" (id 1) (at 193.675 215.265 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "void_switch:VoidSwitch_1u_SMD" (id 2) (at 193.675 217.805 0)
+    (property "Footprint" "void_switch:VoidSwitch_1.25u_SMD" (id 2) (at 193.675 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 193.675 217.805 0)
@@ -8120,7 +8120,7 @@
     (property "Value" "RAlt" (id 1) (at 340.995 215.265 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "void_switch:VoidSwitch_1u_SMD" (id 2) (at 340.995 217.805 0)
+    (property "Footprint" "void_switch:VoidSwitch_1.25u_SMD" (id 2) (at 340.995 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 340.995 217.805 0)
@@ -9377,7 +9377,7 @@
     (property "Value" "LAlt" (id 1) (at 163.83 215.265 0)
       (effects (font (size 0.9906 0.9906)))
     )
-    (property "Footprint" "void_switch:VoidSwitch_1u_SMD" (id 2) (at 163.83 217.805 0)
+    (property "Footprint" "void_switch:VoidSwitch_1.25u_SMD" (id 2) (at 163.83 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 163.83 217.805 0)
@@ -10135,10 +10135,10 @@
       (reference "AM0") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
     )
     (path "/0ec16a1d-0028-4415-9ec9-609629941555"
-      (reference "AM0:0") (unit 1) (value "Super") (footprint "void_switch:VoidSwitch_1u_SMD")
+      (reference "AM0:0") (unit 1) (value "Super") (footprint "void_switch:VoidSwitch_1.25u_SMD")
     )
     (path "/848a481b-30b7-4332-a703-0dbdeacdda6b"
-      (reference "AM0:1") (unit 1) (value "LCtrl") (footprint "void_switch:VoidSwitch_1u_SMD")
+      (reference "AM0:1") (unit 1) (value "LCtrl") (footprint "void_switch:VoidSwitch_1.25u_SMD")
     )
     (path "/aeeaa5fb-6a99-4a18-89fb-9ec0d3bb4360"
       (reference "AM0:2") (unit 1) (value "LShift") (footprint "void_switch:VoidSwitch_1u_SMD")
@@ -10180,7 +10180,7 @@
       (reference "AM0:14") (unit 1) (value "Z") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
     (path "/f7f4f904-fc49-41cd-ba42-70ee72eafb7c"
-      (reference "AM0:15") (unit 1) (value "LAlt") (footprint "void_switch:VoidSwitch_1u_SMD")
+      (reference "AM0:15") (unit 1) (value "LAlt") (footprint "void_switch:VoidSwitch_1.25u_SMD")
     )
     (path "/5c474c49-8034-4016-ae16-323a11cc68b9"
       (reference "AM1") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
@@ -10192,7 +10192,7 @@
       (reference "AM1:1") (unit 1) (value "C") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
     (path "/ba3ebc1f-2c9b-4fe2-81cf-2056f41fd9b1"
-      (reference "AM1:2") (unit 1) (value "Fun") (footprint "void_switch:VoidSwitch_1u_SMD")
+      (reference "AM1:2") (unit 1) (value "Fun") (footprint "void_switch:VoidSwitch_1.25u_SMD")
     )
     (path "/a9eac101-8758-4335-8e16-8e921f96b408"
       (reference "AM1:3") (unit 1) (value "X") (footprint "void_switch:VoidSwitch_1u_SMD")
@@ -10273,7 +10273,7 @@
       (reference "AM2:13") (unit 1) (value "Comma") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
     (path "/b8d59f57-308a-4af8-a597-03a5aadeb752"
-      (reference "AM2:14") (unit 1) (value "More Fun") (footprint "void_switch:VoidSwitch_1u_SMD")
+      (reference "AM2:14") (unit 1) (value "More Fun") (footprint "void_switch:VoidSwitch_1.25u_SMD")
     )
     (path "/db45c3c3-1250-48bc-a6ed-d093379eb4fb"
       (reference "AM3") (unit 1) (value "CD74HC4067SM") (footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
@@ -10285,7 +10285,7 @@
       (reference "AM3:2") (unit 1) (value "Semi") (footprint "void_switch:VoidSwitch_1u_SMD")
     )
     (path "/c7087234-c640-43bf-a58d-264ccbc622e3"
-      (reference "AM3:3") (unit 1) (value "RAlt") (footprint "void_switch:VoidSwitch_1u_SMD")
+      (reference "AM3:3") (unit 1) (value "RAlt") (footprint "void_switch:VoidSwitch_1.25u_SMD")
     )
     (path "/4b4105a6-2799-49c5-b57e-166b2eaa0870"
       (reference "AM3:4") (unit 1) (value "Period") (footprint "void_switch:VoidSwitch_1u_SMD")
